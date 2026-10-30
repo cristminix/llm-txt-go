@@ -86,9 +86,16 @@ Copy the example environment configuration:
 cp .env-example .env
 ```
 
-Available variables:
+Contents of `.env-example`:
+```bash
+DOCUMENTATION_NAME="Medusa Docs"
+LLM_DOCS_PATH=docs/llms.txt
+```
+
+Available environment variables:
 - `DOCUMENTATION_NAME`: Display name for the documentation server (default: `Medusa Docs`).
-- `DOCS_PATH`: Optional custom path to your `llms-full.txt` file.
+- `LLM_DOCS_PATH`: Path to your documentation file (e.g., `docs/llms-full.txt` or `docs/llms.txt`).
+- `CONFIG_PATH`: Optional custom path to `config.json` (defaults to `./config.json`).
 
 ---
 
