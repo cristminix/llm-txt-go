@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "react-native-sme-docs": {
+      "command": "/mnt/data/userdata/projects/llm-txt-go/llm-txt-go",
+    
+      "env": {
+        "LLM_DOCS_PATH": "/mnt/data/userdata/projects/llm-txt-go/docs/llms-full.txt"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.env
+llm-txt-go
+cmd/test-server/test-server
+docs/*.txt

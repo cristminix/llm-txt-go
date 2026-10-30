@@ -1,0 +1,20 @@
+{
+  "searchDefaults": {
+    "maxResults": 5,
+    "threshold": 0.4,
+    "minMatchCharLength": 3
+  },
+  "listDefaults": {
+    "maxSections": 50
+  },
+  "server": {
+    "name": "react-native-sme-docs",
+    "version": "1.0.0"
+  },
+  "documentation": {
+    "previewLength": 500,
+    "fallbackPaths": [
+      "docs/llms-full.txt"
+    ]
+  }
+}
